@@ -1,4 +1,4 @@
-# to-do-list-app coded with HTML, CSS and Qjuery
+# To Do App coded with HTML, CSS and Jquery
 
 basic To-Do-List app with the following features:
 
