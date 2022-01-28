@@ -1,68 +1,77 @@
-
-
-
-
 body {
-	font-family: 'Playfair Display', serif;
-	background:#444444;
-	color:white;
-	}
-	
-	.container{
-	padding: 20px;
-	width: 300px;
-	margin: 0 auto;
-	margin-top: 40px;
-	background: #2069e0;
-	box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
-	border-radius: 5px;
-	border: 1px white solid;
-	}
-	form {
-	display: inline-block;
-	}
-	
-	input{
-	padding: 0.5rem 0.4rem;
-	border-radius: 2px;
-	border:none;
-	}
-	
-	#button{
-	display: inline-block;
-	background-color:#082c6c;
-	font-size:0.95rem;
-	border-radius: 5px;
-	text-align:center;
-	margin-top:2px;
-	padding: 6px 15px;
-	border:1px white solid;
-	}
-	
-	#button:hover{
-	cursor: pointer;
-	opacity: .8;}
-	
-	ol {padding-left: 20px;}
-	
-	ol li {padding: 5px;color:white;}
-	
-	ol li:nth-child(even){background: #082c6c; color:white; border-radius: 3px}
-	
-	.strike{text-decoration: line-through;}
-	
-	li:hover{
-	  cursor: pointer;
-	 }
-	
-	.delete {
-		display: none;
-	}
-	
-	li > crossOutButton {
-		background: none;
-		border: none;
-		float: right;
-		color: white;
-		font-weight: 800;
-	}
+  font-family: "Playfair Display", serif;
+  background: #444444;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #2069e0;
+  box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%),
+    0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+  border: 1px white solid;
+}
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 0.5rem 0.4rem;
+  border-radius: 2px;
+  border: none;
+}
+
+#button {
+  display: inline-block;
+  background-color: #082c6c;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 6px 15px;
+  border: 1px white solid;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: white;
+}
+
+ol li:nth-child(even) {
+  background: #082c6c;
+  color: white;
+  border-radius: 3px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+}
+
+li > crossOutButton {
+  background: none;
+  border: none;
+  float: right;
+  color: white;
+  font-weight: 800;
+}
