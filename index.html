@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <title>to-do-list-app</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-	<title>to-do-list-app</title>
-	<link href="/css/styles.css" rel="stylesheet" type="text/css" />
-</head>
+  <body>
+    <div class="container">
+      <h2>To Do List App</h2>
+      <p>
+        <em>
+          Double click to mark an item off, click on "X" to delete an item, and
+          drag items to reorder.</em
+        >
+      </p>
 
-<body>
-	<div class="container">
-		<h2>To Do List App</h2>
-		<p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
-       
-		<form name="toDoList">
-			<input type="text" name="ListItem" id="input"/>
-		</form>
-    
-		<div onclick="newItem()" id="button">Add</div>
-		<br/>
-		<ol id="list"></ol>
-  </div>
-  <script
+      <form name="toDoList">
+        <input type="text" name="ListItem" id="input" />
+      </form>
+
+      <div onclick="newItem()" id="button">Add</div>
+      <br />
+      <ol id="list"></ol>
+    </div>
+    <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
@@ -32,6 +39,6 @@
       integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
       crossorigin="anonymous"
     ></script>
-  <script src="/js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
