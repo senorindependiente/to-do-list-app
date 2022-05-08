@@ -1,6 +1,6 @@
 # To Do App coded with HTML, CSS and Jquery
 
-> Live demo [https://senorindependiente.github.io/to-do-list-app](https://senorindependiente.github.io/to-do-list-app)
+> Live demo [_here_](https://senorindependiente.github.io/to-do-list-app)
 
 basic To-Do-List app with the following features:
 
